@@ -1,0 +1,39 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: fondo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: "jdbc:mysql://127.0.0.1:3306/fondo3?characterEncoding=utf-8&useUnicode=true&useSSL=false&serverTimezone=AsiaShanghai"
+    url: "jdbc:mysql://127.0.0.1:3306/fondo3"
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+  jackson:
+    serialization:
+      write-dates-as-timestamps: true
+#rocketmq:
+#  consumer:
+#    listeners:
+#  name-server: 127.0.0.1:9876
+#  producer:
+#    group: producer-group
+fondo:
+  minio:
+    endpoint: http://127.0.0.1:19000
+    access-key: minioadmin
+    secret-key: minioadmin
+  ali:
+    oss:
+      endpoint: aliyun
+      access-key-id: aliyun
+      secret-access-key: aliyun
+  tencent:
+    cos:
+      access-key: tencent
+      secret-key: tencent
+logging:
+  level:
+    web: debug
