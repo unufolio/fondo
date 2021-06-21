@@ -16,7 +16,7 @@ import static com.unufolio.fondo.common.enums.ResultCodeEnum.UNAUTHORIZED;
 
 /**
  * @author Unufolio unufolio@gmail.com
- * @date 2021/03/28
+ * @since 2021/03/28
  */
 @Service
 public class AuthenticationEntryPointImpl implements AuthenticationEntryPoint {

@@ -16,7 +16,7 @@ import java.util.Date;
 
 /**
  * @author Unufolio unufolio@gmail.com
- * @date 2021/05/31
+ * @since 2021/05/31
  */
 public class Response {
 

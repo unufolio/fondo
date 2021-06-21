@@ -31,7 +31,7 @@ import org.springframework.web.cors.CorsUtils;
 
 /**
  * @author Unufolio unufolio@gmail.com
- * @date 2021/03/27
+ * @since 2021/03/27
  */
 @Configuration
 public class MultiWebSecurityConfig {

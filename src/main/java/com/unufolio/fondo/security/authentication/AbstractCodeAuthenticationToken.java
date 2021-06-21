@@ -7,7 +7,7 @@ import java.util.Collection;
 
 /**
  * @author oktfolio oktfolio@gmail.com
- * @date 2021/05/31
+ * @since 2021/05/31
  */
 public abstract class AbstractCodeAuthenticationToken extends AbstractAuthenticationToken {
 

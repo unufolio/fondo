@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 /**
  * @author Unufolio unufolio@gmail.com
- * @date 2021/05/25
+ * @since 2021/05/25
  */
 @Entity
 @Table(name = "fondo_user")

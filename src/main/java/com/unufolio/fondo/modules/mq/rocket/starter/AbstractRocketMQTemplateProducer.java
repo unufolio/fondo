@@ -16,7 +16,7 @@ import java.util.Map;
  * https://github.com/apache/rocketmq-spring
  *
  * @author Unufolio unufolio@gmail.com
- * @date 2021/03/28
+ * @since 2021/03/28
  */
 public abstract class AbstractRocketMQTemplateProducer<T, R> {
 

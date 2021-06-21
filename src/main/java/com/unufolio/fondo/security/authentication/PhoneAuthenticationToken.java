@@ -6,7 +6,7 @@ import java.util.Collection;
 
 /**
  * @author Unufolio unufolio@gmail.com
- * @date 2021/05/31
+ * @since 2021/05/31
  */
 public class PhoneAuthenticationToken extends AbstractCodeAuthenticationToken {
     public PhoneAuthenticationToken(Object principal, Object credentials, String code) {

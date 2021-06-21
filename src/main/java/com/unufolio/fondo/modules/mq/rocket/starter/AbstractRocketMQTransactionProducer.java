@@ -6,7 +6,7 @@ import org.springframework.messaging.Message;
 
 /**
  * @author Unufolio unufolio@gmail.com
- * @date 2021/03/28
+ * @since 2021/03/28
  */
 public abstract class AbstractRocketMQTransactionProducer<T> {
 

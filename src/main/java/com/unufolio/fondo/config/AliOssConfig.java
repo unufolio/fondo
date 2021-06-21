@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author Unufolio unufolio@gmail.com
- * @date 2021/03/28
+ * @since 2021/03/28
  */
 @Configuration
 @ConfigurationProperties(prefix = "fondo.ali.oss", ignoreInvalidFields = false, ignoreUnknownFields = true)

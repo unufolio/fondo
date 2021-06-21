@@ -10,7 +10,7 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 /**
  * @author oktfolio oktfolio@gmail.com
- * @date 2020/06/13
+ * @since 2020/06/13
  */
 public class ThreadPoolUtils {
     private static final ThreadFactory NAMED_THREAD_FACTORY = new ThreadFactoryBuilder().setNameFormat

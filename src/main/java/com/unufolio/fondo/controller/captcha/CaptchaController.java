@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author Unufolio unufolio@gmail.com
- * @date 2021/05/25
+ * @since 2021/05/25
  */
 @RestController
 @RequestMapping("captcha")

@@ -7,7 +7,7 @@ import org.springframework.util.Assert;
 
 /**
  * @author unufolio unufolio@gmail.com
- * @date 2020/06/17
+ * @since 2020/06/17
  */
 public class SpringUtils {
 

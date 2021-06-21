@@ -9,7 +9,7 @@ import javax.validation.Validator;
 
 /**
  * @author Unufolio unufolio@gmail.com
- * @date 2021/03/28
+ * @since 2021/03/28
  */
 @Configuration
 public class ValidateConfig {
